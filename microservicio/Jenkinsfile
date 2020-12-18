@@ -39,7 +39,6 @@ pipeline {
     }
     
 	
-	gradle --b microservicio/build.gradle clean'
 	
 	
 	
