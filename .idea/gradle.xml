@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/comun" />
+        <option name="gradleJvm" value="azul-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/comun" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/microservicio/aplicacion" />
+        <option name="gradleJvm" value="azul-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/microservicio/aplicacion" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/microservicio/dominio" />
+        <option name="gradleJvm" value="azul-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/microservicio/dominio" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/microservicio/infraestructura" />
+        <option name="gradleJvm" value="azul-13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/microservicio/infraestructura" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
