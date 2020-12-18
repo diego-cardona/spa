@@ -38,8 +38,8 @@ pipeline {
       }
     }
     
-	//Se limpia el proyecto
-	gradle --b ./microservicio/build.gradle clean'
+	
+	gradle --b microservicio/build.gradle clean'
 	
 	
 	
