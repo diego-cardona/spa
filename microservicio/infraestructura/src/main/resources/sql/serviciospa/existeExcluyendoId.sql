@@ -1,0 +1,1 @@
+select count(1) from serviciospa where id <> :id and nombre = :nombre
