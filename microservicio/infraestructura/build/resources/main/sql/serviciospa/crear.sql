@@ -1,1 +1,1 @@
-insert into serviciospa (nombre, clave, fecha_creacion, precio) values (:nombre, :clave, :fechaCreacion, :precio)
+insert into serviciospa (nombre, clave,fecha_creacion, precio) values (:nombre, :clave, :fechaCreacion, :precio)
