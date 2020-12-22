@@ -3,8 +3,7 @@ package com.ceiba.serviciospa.servicio;
 import com.ceiba.dominio.excepcion.ExcepcionDuplicidad;
 import com.ceiba.serviciospa.modelo.entidad.ServicioSpa;
 import com.ceiba.serviciospa.puerto.repositorio.RepositorioServicioSpa;
-import com.ceiba.usuario.modelo.entidad.Usuario;
-import com.ceiba.usuario.puerto.repositorio.RepositorioUsuario;
+
 
 public class ServicioActualizarServicioSpa {
 

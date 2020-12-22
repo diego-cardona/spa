@@ -4,9 +4,6 @@ import com.ceiba.infraestructura.jdbc.CustomNamedParameterJdbcTemplate;
 import com.ceiba.infraestructura.jdbc.sqlstatement.SqlStatement;
 import com.ceiba.serviciospa.modelo.dto.DtoServicioSpa;
 import com.ceiba.serviciospa.puerto.dao.DaoServicioSpa;
-import com.ceiba.usuario.adaptador.dao.MapeoUsuario;
-import com.ceiba.usuario.modelo.dto.DtoUsuario;
-import com.ceiba.usuario.puerto.dao.DaoUsuario;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
