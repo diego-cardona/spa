@@ -1,5 +1,9 @@
 package com.ceiba.configuracion;
 
+import com.ceiba.cita.puerto.repositorio.RepositorioCita;
+import com.ceiba.cita.servicio.ServicioActualizarCita;
+import com.ceiba.cita.servicio.ServicioCrearCita;
+import com.ceiba.cita.servicio.ServicioEliminarCita;
 import com.ceiba.serviciospa.puerto.repositorio.RepositorioServicioSpa;
 import com.ceiba.serviciospa.servicio.ServicioActualizarServicioSpa;
 import com.ceiba.serviciospa.servicio.ServicioCrearServicio;
@@ -46,7 +50,22 @@ class BeanServicio {
     public ServicioActualizarServicioSpa servicioActualizarServicioSpa(RepositorioServicioSpa repositorioServicioSpa) {
         return new ServicioActualizarServicioSpa(repositorioServicioSpa);
     }
+    //-------------------------------------------------------------------------------------------
 
+    @Bean
+    public ServicioCrearCita servicioCrearCita(RepositorioCita repositorioCita) {
+        return new ServicioCrearCita(repositorioCita);
+    }
+
+    @Bean
+    public ServicioEliminarCita servicioEliminarCita(RepositorioCita repositorioCita) {
+        return new ServicioEliminarCita(repositorioCita);
+    }
+
+    @Bean
+    public ServicioActualizarCita servicioActualizarCita(RepositorioCita repositorioCita) {
+        return new ServicioActualizarCita(repositorioCita);
+    }
 
 
 }
