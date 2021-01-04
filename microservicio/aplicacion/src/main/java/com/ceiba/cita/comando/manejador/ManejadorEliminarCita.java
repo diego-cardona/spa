@@ -2,7 +2,6 @@ package com.ceiba.cita.comando.manejador;
 
 import com.ceiba.cita.servicio.ServicioEliminarCita;
 import com.ceiba.manejador.ManejadorComando;
-import com.ceiba.serviciospa.servicio.ServicioEliminarServicioSpa;
 import org.springframework.stereotype.Component;
 
 @Component
