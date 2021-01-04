@@ -2,16 +2,12 @@ package com.ceiba.cita.modelo.entidad;
 
 import com.ceiba.serviciospa.modelo.entidad.ServicioSpa;
 import com.ceiba.usuario.modelo.entidad.Usuario;
-
 import java.time.DayOfWeek;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Calendar;
-
 import static com.ceiba.dominio.ValidadorArgumento.validarObligatorio;
 
-//@Getter
-//@Setter
 public class Cita {
 
     private static final String SE_DEBE_INGRESAR_LA_CLAVE = "Se debe ingresar la clave";
@@ -19,7 +15,6 @@ public class Cita {
     private static final String SE_DEBE_INGRESAR_EL_PRECIO_DEL_SERVICIO = "Se debe ingresar el nombre de servicio";
     private static final String SE_DEBE_INGRESAR_EL_IDPROFESIONAL = "Se debe ingresar el id del profesional";
     private static final String SE_DEBE_INGRESAR_EL_SERVICIOSPA = "Se debe ingresar el servicio spa";
-    private static final int LONGITUD_MINIMA_CLAVE = 4;
     private Long id;
     private Usuario usuario;
     private Long idProfesional;
