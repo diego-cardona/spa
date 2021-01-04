@@ -1,0 +1,1 @@
+insert into cita (usuario, idProfesional, fecha, precio, servicioSpa) values (1, 15, now(), 3000, 1)

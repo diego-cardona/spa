@@ -16,7 +16,7 @@ public class ServicioActualizarServicioSpa {
     }
 
     public void ejecutar(ServicioSpa servicioSpa) {
-        validarExistenciaPrevia(servicioSpa);
+        //validarExistenciaPrevia(servicioSpa);
         this.repositorioServicioSpa.actualizar(servicioSpa);
     }
 

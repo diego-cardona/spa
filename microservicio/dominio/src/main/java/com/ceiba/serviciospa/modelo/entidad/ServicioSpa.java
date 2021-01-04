@@ -1,14 +1,17 @@
 package com.ceiba.serviciospa.modelo.entidad;
 
 import lombok.Getter;
+import lombok.Setter;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 import static com.ceiba.dominio.ValidadorArgumento.validarLongitud;
 import static com.ceiba.dominio.ValidadorArgumento.validarObligatorio;
 
 @Getter
-public class ServicioSpa {
+@Setter
+public class ServicioSpa implements Serializable {
 
     private static final String SE_DEBE_INGRESAR_LA_FECHA_CREACION = "Se debe ingresar la fecha de creación";
     private static final String LA_CLAVE_DEBE_TENER_UNA_LONGITUD_MAYOR_O_IGUAL_A = "La clave debe tener una longitud mayor o igual a %s";
@@ -24,7 +27,10 @@ public class ServicioSpa {
     private LocalDateTime fechaCreacion;
     private Long precio;
 
-    public ServicioSpa(Long id,String nombre, String clave,LocalDateTime fechaCreacion, Long precio) {
+    public ServicioSpa() {
+    }
+
+    public ServicioSpa(Long id, String nombre, String clave, LocalDateTime fechaCreacion, Long precio) {
         validarObligatorio(nombre, SE_DEBE_INGRESAR_EL_NOMBRE_DE_SERVICIO);
         validarObligatorio(clave, SE_DEBE_INGRESAR_LA_CLAVE);
         validarLongitud(clave, LONGITUD_MINIMA_CLAVE, String.format(LA_CLAVE_DEBE_TENER_UNA_LONGITUD_MAYOR_O_IGUAL_A,LONGITUD_MINIMA_CLAVE));
