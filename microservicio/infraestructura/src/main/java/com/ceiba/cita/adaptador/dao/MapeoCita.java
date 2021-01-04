@@ -2,7 +2,6 @@ package com.ceiba.cita.adaptador.dao;
 
 import com.ceiba.cita.modelo.dto.DtoCita;
 import com.ceiba.infraestructura.jdbc.MapperResult;
-import com.ceiba.mapperUsuario.MapperResultUsuario;
 import com.ceiba.serviciospa.modelo.entidad.ServicioSpa;
 import com.ceiba.usuario.modelo.entidad.Usuario;
 import org.springframework.jdbc.core.RowMapper;
